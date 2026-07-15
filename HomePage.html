@@ -4,11 +4,90 @@
         <title>HOSPITAL WEBPAGE</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-          <div id="header">
+<!---header top---->
+        <section class="top-bar-section">
             <div class="container">
+                <div class="top-bar">
+                    <div>
+                        <i class="fas fa-clock"></i> 24/7 Support
+                    </div>
+                    <div>
+                    <i class="fas fa-phone"></i> +234-567-890
+                    </div>
+                    <div>
+                    <i class="fas fa-envelope"></i> helpcenter@gmail.com 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!---header bottom----> 
+        <section class="navbar=section" id="MainHeader">
+            <div class="container">
+                <div class="navbar">
+                    <h2><i class="fas fa-heartbeat"></i>XYZ Hospital </h2>
+                    <p><i class="fas fa-location-dot"></i>Ranchi Jharkhand</p>
+                    <div class="menu-toggle">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <nav>
+                        <a href="HomePage.html">Home</a>
+                        <a href="Aboutus.html">About Us</a>
+                        <a href="Director'desk.html">Director' Desk</a>
+                        <a href="Specialities.html">Specialities</a>
+                        <a href="Services.html">Services</a>
+                        <a href="ContactUs.html">Contact Us</a>
+                    </nav>
+                </div>
+                </div>
+
+        </section>
+
+        <header  class="Home" id="HomePage">
+            <h1 data-aos="fade-up">Welcome to XYZ Hospital <i class="fas fa-heartbeat"></i></h1>
+            <h2 data-aos="fade-up" data-aos-delay="100">Your Health, Our Priority.........</h2>
+            <button data-aos="fade-down">Read more</button>
+            <button data-aos="fade-down" class="outline-btn">Appointment Booking</button>
+        </header>
+        <section class="section serivces" id="Services">
+            <h2 data-aos="fade-right">Our Services</h2>
+            <p class="sub-heading" data-aos="fade-right">
+               your health is our priority. We provide a wide range of medical services to ensure the well-being of our patients. Our dedicated team of healthcare professionals is committed to delivering high-quality care and personalized treatment plans. 
+            </p>
+            <div class="flex-row">
+                <div class="card" data-aos="fade-up">
+                    <i class="fas fa-stethoscope"></i>
+                    <h3>General Checkup</h3>
+                    <p>Regular health checkups are essential for maintaining overall well-being. Our general checkup services include comprehensive examinations, screenings, and consultations to detect potential health issues early on.</p>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-briefcase-medical"></i>
+                    <h3>Emergency Care</h3>
+                    <p>Our emergency department is equipped with state-of-the-art facilities and staffed by experienced professionals to provide immediate care for urgent medical conditions.</p>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Cardiology</h3>
+                    <p>Our cardiology department offers comprehensive care for heart-related conditions. We utilize the latest diagnostic tools and treatment methods to ensure the best possible outcomes for our patients.</p>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-truck-medical"></i>
+                    <h3>Ambulance Services</h3>
+                    <p>Our ambulance services provide rapid and reliable transportation for medical emergencies, ensuring that patients receive timely care when they need it most.</p>
+                </div>
+            </div>    
+        </section>
+
+         
+          <!----<div id="header">
+            <div class="container"> 
                 <nav>
                 <a href="HomePage.html" class="logo">
                     <img src="logo.png" alt="Hospital Logo" width="90" height="70"></a>
@@ -25,7 +104,7 @@
                     <li><a href="#Specialities">Specialities</a></li>
                     <li><a href="#Services">Services</a></li>
                     <li><a href="#ContactUs">Contact Us</a></li>
-                    <!----<li><a href="#" class="close" onclick="closemenu()"><p>✖</p></a></li>--->
+                    <li><a href="#" class="close" onclick="closemenu()"><p>✖</p></a></li> 
                 </ul>
                 <a href="#" class="menu" onclick="openmenu()"><p>≣</p></a>
                 </nav>
@@ -33,5 +112,8 @@
                     <h1>Welcome to XYZ Hospital</h1><h2>Your Headth Our Priority<p>Providing Quality Healthcare Services</p></h2>
                 </div>
             </div>
-            </div>
+            </div>---->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+            <script src="script.js"></script> 
             </body>
+</html>
