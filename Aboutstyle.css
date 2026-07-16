@@ -28,7 +28,7 @@ a{
     color: inherit;
 }
 
-/*srcollbar*/
+/*.................srcollbar.....................*/
 
 body::-webkit-scrollbar{
     widow: 10px;
@@ -140,4 +140,86 @@ body::-webkit-scrollbar-thumb:hover{
 .about{
     margin-top: 20px;
 }
+/*------------------------------------Footer Section---------------------------------------*/
+.footer{
 
+  padding: 150px;
+  background-color: var(--primary-color);
+  
+}
+/* Footer Base Styling */
+.footer {
+  background-color: var(--primary-color);
+  color: #ecf0f1;
+  padding: 40px 20px 20px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-col h3 {
+  color: #3498db; 
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+.footer-col h3 i {
+  color: #3498db; 
+}
+
+.footer-col p {
+  line-height: 1.6;
+  font-size: 0.95rem;
+  color: #bdc3c7;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 12px;
+}
+
+.footer-col ul li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.footer-col ul li a i {
+  margin-right: 10px;
+  color: #3498db;
+  width: 20px; 
+  text-align: center;
+}
+
+.footer-col ul li a:hover {
+  color: #b8980a;
+}
+
+
+/* .........................................Bottom Bar ...................................*/
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #b8980a;
+  font-size: 16px;
+  color: #070707;
+}
